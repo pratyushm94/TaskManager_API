@@ -1,6 +1,6 @@
 const db = require("mongoose");
 
-//let connectString = "mongodb+srv://pratyush:1234@cluster0.ybrzo.mongodb.net/TaskManagerApi?retryWrites=true&w=majority" ;
+
 
 const connectDB = function (url) {
    return db.connect(url, {  // why a return  here? 
